@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "homework01",
+=======
+  "name": "class-exercise",
+>>>>>>> ee1e99f (Added  class-exercise folder)
   "version": "0.1.0",
   "private": true,
   "dependencies": {

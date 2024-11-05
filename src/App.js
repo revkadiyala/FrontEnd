@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // src/Game.js
 import React, { useState } from 'react';
 import './App.css';
@@ -16,10 +17,21 @@ function Board({ squares, onClick }) {
       {squares.map((square, i) => (
         <Square key={i} value={square} onClick={() => onClick(i)} />
       ))}
+=======
+import React from 'react';
+import Profile from './Profile'; // Ensure the path and capitalization match the file name
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Profile />
+>>>>>>> ee1e99f (Added  class-exercise folder)
     </div>
   );
 }
 
+<<<<<<< HEAD
 export default function Game() {
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [isXNext, setIsXNext] = useState(true);
@@ -64,3 +76,6 @@ export default function Game() {
     </div>
   );
 }
+=======
+export default App;
+>>>>>>> ee1e99f (Added  class-exercise folder)
